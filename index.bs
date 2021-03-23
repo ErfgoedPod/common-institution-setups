@@ -86,8 +86,8 @@ The function of a single system is _stretched_ to also provide the function of a
 ## Who?
 
 - Small institutions
-- Flemish regional institutions ('Erfgoedcellen')
-- 'Heemkundige kringen'
+- Flemish regional institutions \("Erfgoedcellen"\)
+- "Heemkundige kringen"
 - (Historical) Archives
 - Genealogist
 
@@ -114,13 +114,13 @@ path: images/erfgoedinstelling-Hub.svg
 
 ## What?
 
-A number of institutions share data in a common 'hub', which is additional to their existing infrastructure.
+A number of institutions share data in a common "hub", which is additional to their existing infrastructure.
 
 ## Who?
 
 - Institutions who share a thematic or strategic interest.
 - Heritage registries
-- Flemish regional institutions ('Erfgoedcellen')
+- Flemish regional institutions ("Erfgoedcellen")
 
 # Centralized setup
 
@@ -135,7 +135,7 @@ A number of institutions share all data managing systems, which are hosted by a 
 ## Who?
 
 - Small institutions with little in-house knowhow
-- Flemish regional institutions ('Erfgoedcellen')
+- Flemish regional institutions ("Erfgoedcellen")
 
 # Stencil setup
 
