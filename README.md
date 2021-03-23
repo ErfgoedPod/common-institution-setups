@@ -1,6 +1,7 @@
 # Requirements Template
 
-This is the template for requirements published by Netwerk Digitaal Erfgoed.
+This repostiory contains the source files for the report on common infrastructure setups. 
+It uses the template for requirements published by Netwerk Digitaal Erfgoed.
 
 Requirements are written in Markdown and transformed to HTML using the
 [Bikeshed preprocessor](https://tabatkins.github.io/bikeshed/).
