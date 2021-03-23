@@ -3,7 +3,7 @@ Title: Common infrastructure setups of a Cultural Heritage Institution
 Shortname: common-setups
 Level: 1
 Status: LS
-URL: https://erfgoedpod.github.io/erfgoedpod-usecases
+URL: https://erfgoedpod.github.io/common-setups
 Editor: Miel Vander Sande, meemoo http://meemoo.be, miel.vandersande@meemoo.be
 Abstract: This document identifies software setups that are common within Flemish and Dutch cultural heritage institutions.
 </pre>
