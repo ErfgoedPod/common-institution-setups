@@ -6,7 +6,17 @@ Status: LS
 URL: https://erfgoedpod.github.io/common-setups
 Editor: Miel Vander Sande, meemoo http://meemoo.be, miel.vandersande@meemoo.be
 Abstract: This document identifies software setups that are common within Flemish and Dutch cultural heritage institutions.
+Markup Shorthands: markdown yes
 </pre>
+
+# Set of documents
+
+This document is one of the *Decentralized Digital Heritage Network* specifications produced by the ErfgoedPod project by [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl), [meemoo - Flemish Institute for Archiving](https://meemoo.be) and [Ghent University - IDLab](http://idlab.ugent.be):
+
+1. [Architecture Decentralized Digital Heritage Network](/architecture/) 
+2. [Use cases & Business processes digital heritage network](/usecases/)
+3. [Common infrastructure setups of a Cultural Heritage Institutions](/common-setups/) (this document)
+4. [Orchestrator](/orchestrator/)
 
 # Introduction
 
@@ -20,7 +30,7 @@ In summary, the day-to-day *digital* operations of a cultural heritage instituti
 
 We identified three common types of management systems that are in direct correspondence with these tasks:
 
-## Collections Management System
+## <dfn export>Collections Management System</dfn>
 
 Software used by the cultural heritage institution to organize, control, and manage collections objects by "tracking all information related to and about" those objects. Registrars, collections managers, and curators, use it to record information such as object locations, provenance, curatorial information, conservation reports, and exhibition histories. This information is also accessed and used by other departments systems and from departments.
 
@@ -32,7 +42,7 @@ Example software systems:
 - Keepthinking QI
 - Collective access
 
-## Digital Asset Management System
+## <dfn export>Digital Asset Management System</dfn>
 
 A centralized system where cultural heritage institutions (efficiently) store, organize, manage, access and distribute their media assets.
 
