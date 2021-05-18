@@ -1223,7 +1223,37 @@ Possible extra rowspan handling
 </style>
   <meta content="Bikeshed version 5f7b0e20, updated Tue Aug 18 15:46:28 2020 -0700" name="generator">
   <link href="https://erfgoedpod.github.io/common-setups" rel="canonical">
-  <meta content="d21268ee380409cbe674384457c0481ecdd52b9c" name="document-revision">
+  <meta content="d7511fc48b063480b6802710efda745ef19fa794" name="document-revision">
+<style>
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #005A9C;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+table tr:hover {
+  background: #f4f4f4;
+}
+table tr:hover td {
+  color: #555;
+}
+table th, table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+}
+table th {
+  background: #005A9C;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+table th.last {
+  border-right: none;
+}
+</style>
 <style>/* style-autolinks */
 
 .css.css, .property.property, .descriptor.descriptor {
@@ -1375,7 +1405,7 @@ dfn > a.self-link::before      { content: "#"; }</style>
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">Common infrastructure setups of a Cultural Heritage Institution</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Living Standard, <time class="dt-updated" datetime="2021-05-17">17 May 2021</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Living Standard, <time class="dt-updated" datetime="2021-05-18">18 May 2021</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -1389,7 +1419,7 @@ dfn > a.self-link::before      { content: "#"; }</style>
    <div data-fill-with="warning"></div>
    <p class="copyright" data-fill-with="copyright"><a href="http://creativecommons.org/publicdomain/zero/1.0/" rel="license"><img alt="CC0" src="https://licensebuttons.net/p/zero/1.0/80x15.png"></a> To the extent possible under law, the editors have waived all copyright
 and related or neighboring rights to this work.
-In addition, as of 17 May 2021,
+In addition, as of 18 May 2021,
 the editors have made this specification available under the <a href="http://www.openwebfoundation.org/legal/the-owf-1-0-agreements/owfa-1-0" rel="license">Open Web Foundation Agreement Version 1.0</a>,
 which is available at http://www.openwebfoundation.org/legal/the-owf-1-0-agreements/owfa-1-0.
 Parts of this work may be from another specification document.  If so, those parts are instead covered by the license of that specification document. </p>
@@ -1475,14 +1505,13 @@ Registrars, collections managers, and curators, use it to record information suc
 This information is also accessed and used by other departments systems and from departments.</p>
    <p>Collections Management Systems used in Flanders and the Netherlands:</p>
    <table>
-    <tbody>
+    <thead>
      <tr>
-      <th>
-      <td>Company
-      <td>Product
-      <td>Description
-      <td>NL
-      <td>FL
+      <th>Company 
+      <th>Product 
+      <th>Description 
+      <th>NL 
+      <th>FL 
     <tbody>
      <tr>
       <td>Axiell
@@ -1543,58 +1572,56 @@ This information is also accessed and used by other departments systems and from
    <p>A centralized system where cultural heritage institutions (efficiently) store, organize, manage, access and distribute their media assets.</p>
    <p>Digital Asset Management Systems used in Flanders and the Netherlands:</p>
    <table>
+    <thead>
+     <tr>
+      <th>Company 
+      <th>Product 
+      <th>Description 
+      <th>NL 
+      <th>FL 
     <tbody>
      <tr>
-      <th>
-      <td>Company
-      <td>Product
-      <td>Description
-      <td>NL
-      <td>FL
-    <tbody>
+      <td>/ 
+      <td>Common Filesystem or Webserver 
+      <td>
+      <td>✅ 
+      <td>✅ 
      <tr>
-      <td>/
-      <td>Common Filesystem or Webserver
+      <td>Dropbox 
+      <td>Dropbox 
       <td>
-      <td>✅
-      <td>✅
+      <td>✅ 
+      <td>✅ 
      <tr>
-      <td>Dropbox
-      <td>Dropbox
+      <td>Zeticon 
+      <td>Mediahaven 
       <td>
-      <td>✅
-      <td>✅
+      <td>
+      <td>✅ 
      <tr>
-      <td>Zeticon
-      <td>Mediahaven
+      <td>Resource space 
+      <td>DAM 
       <td>
-      <td>
-      <td>✅
-     <tr>
-      <td>Resource space
-      <td>DAM
-      <td>
-      <td>✅
+      <td>✅ 
       <td>
      <tr>
-      <td>DEVENTit
-      <td>Atlantis Beeldbank
+      <td>DEVENTit 
+      <td>Atlantis Beeldbank 
       <td>
-      <td>✅
+      <td>✅ 
       <td>
    </table>
    <h3 class="heading settled" data-level="2.3" id="content-management-system"><span class="secno">2.3. </span><span class="content"><dfn data-dfn-type="dfn" data-export id="content-management-system①">Content Management System<a class="self-link" href="#content-management-system①"></a></dfn></span><a class="self-link" href="#content-management-system"></a></h3>
    <p>Cultural heritage institutions often use a content management system to create, manage, and modify content on their website, because it doesn’t require writing all the code from scratch or even having the skills to do so. Their website is the main channel for communicating with their individual audience, e.g., write articles about their collections and run campaigns. Hence, the CMS is a component seldomly shared with others.</p>
    <p>Content Management Systems used in Flanders and the Netherlands:</p>
    <table>
-    <tbody>
+    <thead>
      <tr>
-      <th>
-      <td>Company
-      <td>Product
-      <td>Description
-      <td>NL
-      <td>FL
+      <th>Company 
+      <th>Product 
+      <th>Description 
+      <th>NL 
+      <th>FL 
     <tbody>
      <tr>
       <td>/

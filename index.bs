@@ -9,6 +9,37 @@ Abstract: This document identifies software setups that are common within Flemis
 Markup Shorthands: markdown yes
 </pre>
 
+<style>
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #005A9C;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+table tr:hover {
+  background: #f4f4f4;
+}
+table tr:hover td {
+  color: #555;
+}
+table th, table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+}
+table th {
+  background: #005A9C;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+table th.last {
+  border-right: none;
+}
+</style>
+
 # Set of documents
 
 This document is one of the *Decentralized Digital Heritage Network* specifications produced by the ErfgoedPod project by [Netwerk Digitaal Erfgoed](https://netwerkdigitaalerfgoed.nl), [meemoo - Flemish Institute for Archiving](https://meemoo.be) and [Ghent University - IDLab](http://idlab.ugent.be):
@@ -48,13 +79,13 @@ This information is also accessed and used by other departments systems and from
 Collections Management Systems used in Flanders and the Netherlands:
 
 <table>
-    <th>
-        <td>Company</td>
-        <td>Product</td>
-        <td>Description</td>
-        <td>NL</td>
-        <td>FL</td>
-    </th>
+    <thead>
+        <th>Company
+        <th>Product
+        <th>Description
+        <th>NL
+        <th>FL
+    </thead>
     <tbody>
         <tr>
             <td>Axiell</td>
@@ -129,50 +160,43 @@ A centralized system where cultural heritage institutions (efficiently) store, o
 Digital Asset Management Systems used in Flanders and the Netherlands:
 
 <table>
-    <th>
-        <td>Company</td>
-        <td>Product</td>
-        <td>Description</td>
-        <td>NL</td>
-        <td>FL</td>
-    </th>
+    <thead>
+        <th>Company
+        <th>Product
+        <th>Description
+        <th>NL
+        <th>FL
     <tbody>
         <tr>
-            <td>/</td>
-            <td>Common Filesystem or Webserver</td>
-            <td></td>
-            <td>✅</td>
-            <td>✅</td>
-        </tr>
+            <td>/
+            <td>Common Filesystem or Webserver
+            <td>
+            <td>✅
+            <td>✅
         <tr>
-            <td>Dropbox</td>
-            <td>Dropbox</td>
-            <td></td>
-            <td>✅</td>
-            <td>✅</td>
-        </tr>
+            <td>Dropbox
+            <td>Dropbox
+            <td>
+            <td>✅
+            <td>✅
         <tr>
-            <td>Zeticon</td>
-            <td>Mediahaven</td>
-            <td></td>
-            <td></td>
-            <td>✅</td>
-        </tr>
+            <td>Zeticon
+            <td>Mediahaven
+            <td>
+            <td>
+            <td>✅
         <tr>
-            <td>Resource space</td>
-            <td>DAM</td>
-            <td></td>
-            <td>✅</td>
-            <td></td>
-        </tr>
+            <td>Resource space
+            <td>DAM
+            <td>
+            <td>✅
+            <td>
         <tr>
-            <td>DEVENTit</td>
-            <td>Atlantis Beeldbank</td>
-            <td></td>
-            <td>✅</td>
-            <td></td>
-        </tr>
-    </tbody>
+            <td>DEVENTit
+            <td>Atlantis Beeldbank
+            <td>
+            <td>✅
+            <td>
 </table>
 
 ## <dfn export>Content Management System</dfn>
@@ -182,13 +206,13 @@ Cultural heritage institutions often use a content management system to create, 
 Content Management Systems used in Flanders and the Netherlands:
 
 <table>
-    <th>
-        <td>Company</td>
-        <td>Product</td>
-        <td>Description</td>
-        <td>NL</td>
-        <td>FL</td>
-    </th>
+    <thead>
+        <th>Company
+        <th>Product
+        <th>Description
+        <th>NL
+        <th>FL
+    </thead>
     <tbody>
         <tr>
             <td>/</td>
