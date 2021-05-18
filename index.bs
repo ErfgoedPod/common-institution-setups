@@ -32,8 +32,6 @@ table th, table td {
 table th {
   background: #005A9C;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
 }
 table th.last {
   border-right: none;
